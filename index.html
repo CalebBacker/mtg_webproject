@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+  HTML FOUNDATION FILE - The Basic Structure of the Webpage
+  
+  This is the foundation of our entire application. Think of it like the frame of a house.
+  It creates the basic structure that everything else gets built on top of.
+  
+  What this file does:
+  - Tells the browser "this is an HTML webpage"
+  - Sets up the page title (what appears in the browser tab)
+  - Creates an empty container (div with id="root") where our React app will appear
+  - Links to our main JavaScript file (main.jsx) which starts the app
+-->
+<html lang="en">
+  <head>
+    <!-- Character encoding - tells the browser how to interpret text characters -->
+    <meta charset="UTF-8" />
+    <!-- Viewport settings - makes the page work well on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page title - appears in the browser tab -->
+    <title>MTG App</title>
+  </head>
+  <body>
+    <!-- This empty div is where our entire React application will appear -->
+    <!-- Think of it as an empty picture frame waiting for a painting -->
+    <div id="root"></div>
+    <!-- This links to our main.jsx file, which starts the React application -->
+    <script type="module" src="/main.jsx"></script>
+  </body>
+</html>
